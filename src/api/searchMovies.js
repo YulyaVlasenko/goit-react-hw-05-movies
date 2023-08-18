@@ -2,7 +2,7 @@ import axios from 'axios';
 
 axios.defaults.baseURL = 'https://api.themoviedb.org/3/';
 
-const API_KEY = '0b46dbc328ca74a0ee97be896e4cf159';
+const API_KEY = '94c09d16448ecd6ad30fce2c9e06557d';
 
 export const searchMovies = searchText => {
   return axios('search/movie', {
